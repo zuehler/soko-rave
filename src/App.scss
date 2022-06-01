@@ -9,6 +9,8 @@ html {
 }
 
 .header {
+  display: flex;
+  justify-content: center;
   h1 {
     font-size: 4rem;
     font-weight: bold;
@@ -18,5 +20,26 @@ html {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 10px #f9e64f;
     text-shadow: 0px 0px 10px #333444;
+  }
+}
+
+.navbar {
+  display: flex;
+  width: 80vw;
+  justify-content: space-evenly;
+
+  div {
+    display: flex;
+    justify-content: center;
+    // width: 15%;
+    padding: 0.5rem;
+
+    background-color: #f9e64f;
+    color: #333444;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px #f9e64f;
+
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 }
