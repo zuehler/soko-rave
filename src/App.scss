@@ -28,10 +28,9 @@ html {
   width: 80vw;
   justify-content: space-evenly;
 
-  div {
+  span * {
     display: flex;
     justify-content: center;
-    // width: 15%;
     padding: 0.5rem;
 
     background-color: #f9e64f;
@@ -41,5 +40,6 @@ html {
 
     font-weight: bold;
     font-size: 1.2rem;
+    text-decoration: none;
   }
 }

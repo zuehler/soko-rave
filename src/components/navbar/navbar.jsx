@@ -1,5 +1,11 @@
 import React from "react";
-import { NavLink, Outlet, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  NavLink,
+  Outlet,
+  Routes,
+  Route,
+} from "react-router-dom";
 import { Start } from "../main/subpages/start/start.jsx";
 import { Members } from "../main/subpages/members/members.jsx";
 import { Media } from "../main/subpages/media/media.jsx";
@@ -11,7 +17,7 @@ export const Navbar = () => {
   const navlinks = ["start", "members", "media", "shows", "contact", "merch"];
 
   return (
-    <>
+    <Router>
       <nav className="navbar">
         {navlinks.map((navlink) => {
           return (
@@ -19,7 +25,7 @@ export const Navbar = () => {
               key={navlink}
               style={{ width: 100 / (navlinks.length + 1) + "%" }}
             >
-              <NavLink to={navlink}>{navlink}</NavLink>{" "}
+              <NavLink to={navlink}>{navlink}</NavLink>
             </span>
           );
         })}
@@ -28,7 +34,7 @@ export const Navbar = () => {
 
       <Routes>
         {navlinks.map((navlink) => {
-          console.log(`<${navlink[0].toUpperCase()}${navlink.slice(1)} />`);
+          //  console.log(`<${navlink[0].toUpperCase()}${navlink.slice(1)} />`);
           return (
             <Route
               key={navlink}
@@ -39,6 +45,6 @@ export const Navbar = () => {
           );
         })}
       </Routes>
-    </>
+    </Router>
   );
 };
