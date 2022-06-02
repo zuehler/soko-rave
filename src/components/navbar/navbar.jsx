@@ -6,12 +6,12 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import { Start } from "../main/subpages/start/start.jsx";
-import { Members } from "../main/subpages/members/members.jsx";
-import { Media } from "../main/subpages/media/media.jsx";
-import { Shows } from "../main/subpages/shows/shows.jsx";
-import { Contact } from "../main/subpages/contact/contact.jsx";
-import { Merch } from "../main/subpages/merch/merch.jsx";
+import { Start } from "../subpages/start/start.jsx";
+import { Members } from "../subpages/members/members.jsx";
+import { Media } from "../subpages/media/media.jsx";
+import { Shows } from "../subpages/shows/shows.jsx";
+import { Contact } from "../subpages/contact/contact.jsx";
+import { Merch } from "../subpages/merch/merch.jsx";
 
 export const Navbar = () => {
   const navlinks = ["start", "members", "media", "shows", "contact", "merch"];
@@ -32,7 +32,8 @@ export const Navbar = () => {
       </nav>
       <Outlet />
 
-      <Routes>
+      {/* dynamic routing / dynamic component */}
+      {/* <Routes>
         {navlinks.map((navlink) => {
           //  console.log(`<${navlink[0].toUpperCase()}${navlink.slice(1)} />`);
           return (
@@ -44,6 +45,15 @@ export const Navbar = () => {
             // Vorlage: <Route path="start" element={<Start />} />
           );
         })}
+      </Routes> */}
+
+      <Routes>
+        <Route path="start" element={<Start />} />
+        <Route path="members" element={<Members />} />
+        <Route path="media" element={<Media />} />
+        <Route path="shows" element={<Shows />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="merch" element={<Merch />} />
       </Routes>
     </Router>
   );

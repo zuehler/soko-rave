@@ -1,8 +1,6 @@
-import React from "react";
-
 export const Shows = () => {
   return (
-    <div className="Shows">
+    <div className="shows">
       <h1>Shows</h1>
     </div>
   );

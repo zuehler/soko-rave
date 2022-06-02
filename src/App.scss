@@ -1,7 +1,18 @@
+:root {
+  --javaYellow: #f9e64f;
+  --titaniumYellow: #ddd92a;
+
+  --copBlue: #0e518d;
+  --bgColor: #333444;
+  --fontColor: whitesmoke;
+}
+
 html {
-  background-color: #333444;
+  background-color: var(--bgColor);
   display: flex;
   justify-content: center;
+  color: var(--fontColor);
+  text-shadow: 0px 0px 5px var(--fontColor);
 }
 
 .App {
@@ -10,36 +21,113 @@ html {
 
 .header {
   display: flex;
+  flex-flow: row nowrap;
+
   justify-content: center;
   h1 {
-    font-size: 4rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 80vw;
+
+    font-size: 3rem;
     font-weight: bold;
-    color: #333444;
-    background-color: #f9e64f;
+
+    background-color: var(--copBlue);
     padding: 1rem;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 10px #f9e64f;
-    text-shadow: 0px 0px 10px #333444;
+    box-shadow: 0px 0px 10px 10px var(--copBlue);
   }
 }
 
 .navbar {
   display: flex;
-  width: 80vw;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
+  width: 80vw;
+  border: 1px solid green;
+  margin: 1rem 0;
 
   span * {
     display: flex;
     justify-content: center;
     padding: 0.5rem;
 
-    background-color: #f9e64f;
-    color: #333444;
+    background-color: var(--copBlue);
     border-radius: 10px;
-    box-shadow: 0px 0px 3px 3px #f9e64f;
+    box-shadow: 0px 0px 3px 3px var(--copBlue);
 
     font-weight: bold;
     font-size: 1.2rem;
     text-decoration: none;
+    color: var(--fontColor);
+  }
+}
+
+.members {
+  border: 1px solid tomato;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90vw;
+
+  .memberCarousel {
+    width: 90%;
+
+    border: 1px solid hotpink;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    a {
+      color: var(--fontColor);
+      transition: ease-in-out 0.5s;
+    }
+
+    a:hover {
+      color: var(--titaniumYellow);
+      font-size: 1.1rem;
+      transition: ease-in-out 0.5s;
+    }
+
+    .memberCard {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 1rem;
+      border: 1px solid green;
+      img {
+        width: 70%;
+        border: 1px solid var(--copBlue);
+        box-shadow: 0px 0px 3px 0px var(--copBlue);
+        margin: 1rem;
+      }
+    }
+
+    .innerMemberCard {
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      border: 1px solid yellow;
+      transition: ease-in-out 0.25s;
+    }
+
+    .innerMemberCard:hover {
+      transition: ease-in-out 0.25s;
+      transform: scale(1.5);
+    }
+
+    div > ul {
+      list-style: none;
+      text-align: center;
+      margin: 0.5rem;
+    }
   }
 }

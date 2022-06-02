@@ -1,8 +1,6 @@
-import React from "react";
-
 export const Media = () => {
   return (
-    <div className="Media">
+    <div className="media">
       <h1>Media</h1>
     </div>
   );

@@ -1,8 +1,6 @@
-import React from "react";
-
 export const Merch = () => {
   return (
-    <div className="Merch">
+    <div className="merch">
       <h1>Merch</h1>
     </div>
   );
