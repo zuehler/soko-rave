@@ -6,6 +6,15 @@ import { Mokohuiu } from "../mokohuiu/mokohuiu.jsx";
 import { Resaresa } from "../resaresa/resaresa.jsx";
 
 export const MemberCarousel = () => {
+  const memberComponentsArr = [
+    <Gucci />,
+    <Hermyla />,
+    <JakobKrakel />,
+    <Lomo />,
+    <Mokohuiu />,
+    <Resaresa />,
+  ];
+
   const membersArr = [
     "Gucci",
     "Hermyla",
@@ -17,42 +26,16 @@ export const MemberCarousel = () => {
 
   return (
     <div className="memberCarousel">
-      <div
-        className="memberCard"
-        style={{ width: 100 / (membersArr.length + 1) + "%" }}
-      >
-        <Gucci />
-      </div>
-      <div
-        className="memberCard"
-        style={{ width: 100 / (membersArr.length + 1) + "%" }}
-      >
-        <Hermyla />
-      </div>
-      <div
-        className="memberCard"
-        style={{ width: 100 / (membersArr.length + 1) + "%" }}
-      >
-        <JakobKrakel />
-      </div>
-      <div
-        className="memberCard"
-        style={{ width: 100 / (membersArr.length + 1) + "%" }}
-      >
-        <Lomo />
-      </div>
-      <div
-        className="memberCard"
-        style={{ width: 100 / (membersArr.length + 1) + "%" }}
-      >
-        <Mokohuiu />
-      </div>
-      <div
-        className="memberCard"
-        style={{ width: 100 / (membersArr.length + 1) + "%" }}
-      >
-        <Resaresa />
-      </div>
+      {memberComponentsArr.map((memberComponent) => {
+        return (
+          <div
+            className="memberCard"
+            style={{ width: 100 / (memberComponentsArr.length + 1) + "%" }}
+          >
+            {memberComponent}
+          </div>
+        );
+      })}
     </div>
   );
 };
