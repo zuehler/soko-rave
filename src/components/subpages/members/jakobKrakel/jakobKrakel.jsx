@@ -6,7 +6,7 @@ export const JakobKrakel = () => {
     <div className="jakobKrakel innerMemberCard">
       <img
         src={`./public/mugshot_${member.name.toLowerCase()}.jpg`}
-        alt="Jakob Krakel"
+        alt={member.name}
       />
       <h2>{member.name}</h2>
 

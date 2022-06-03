@@ -1,7 +1,7 @@
-import { gucci } from "../../../../data/gucci";
+import { resaresa } from "../../../../data/resaresa";
 
-export const Gucci = () => {
-  const member = gucci;
+export const Resaresa = () => {
+  const member = resaresa;
   return (
     <div className={`${member.name.toLowerCase()} innerMemberCard`}>
       <img
@@ -33,7 +33,7 @@ export const Gucci = () => {
         <li>soundcloud:</li>
         <li>
           <a href={`${member.soundcloudLink}`} target="_blank">
-            soundcloud.com/{member.soundcloud}
+            {member.soundcloud}
           </a>
         </li>
       </ul>

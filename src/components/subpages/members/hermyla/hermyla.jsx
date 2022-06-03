@@ -1,7 +1,7 @@
-import { gucci } from "../../../../data/gucci";
+import { hermyla } from "../../../../data/hermyla";
 
-export const Gucci = () => {
-  const member = gucci;
+export const Hermyla = () => {
+  const member = hermyla;
   return (
     <div className={`${member.name.toLowerCase()} innerMemberCard`}>
       <img

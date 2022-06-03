@@ -75,6 +75,7 @@ html {
 
   .memberCarousel {
     width: 90%;
+    padding: 3rem 1rem;
 
     border: 1px solid hotpink;
     display: flex;
@@ -97,7 +98,7 @@ html {
       flex-flow: column nowrap;
       justify-content: space-evenly;
       align-items: center;
-      margin: 1rem;
+      margin: 3rem 1rem;
       border: 1px solid green;
       img {
         width: 70%;
@@ -121,7 +122,7 @@ html {
 
     .innerMemberCard:hover {
       transition: ease-in-out 0.25s;
-      transform: scale(1.5);
+      transform: scale(1.2);
     }
 
     div > ul {

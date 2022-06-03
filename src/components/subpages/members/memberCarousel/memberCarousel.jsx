@@ -1,5 +1,9 @@
 import { JakobKrakel } from "../jakobKrakel/jakobKrakel.jsx";
 import { Gucci } from "../gucci/gucci.jsx";
+import { Hermyla } from "../hermyla/hermyla.jsx";
+import { Lomo } from "../lomo/lomo.jsx";
+import { Mokohuiu } from "../mokohuiu/mokohuiu.jsx";
+import { Resaresa } from "../resaresa/resaresa.jsx";
 
 export const MemberCarousel = () => {
   const membersArr = [
@@ -17,19 +21,13 @@ export const MemberCarousel = () => {
         className="memberCard"
         style={{ width: 100 / (membersArr.length + 1) + "%" }}
       >
-        <JakobKrakel />
-      </div>
-      <div
-        className="memberCard"
-        style={{ width: 100 / (membersArr.length + 1) + "%" }}
-      >
         <Gucci />
       </div>
       <div
         className="memberCard"
         style={{ width: 100 / (membersArr.length + 1) + "%" }}
       >
-        <JakobKrakel />
+        <Hermyla />
       </div>
       <div
         className="memberCard"
@@ -41,13 +39,19 @@ export const MemberCarousel = () => {
         className="memberCard"
         style={{ width: 100 / (membersArr.length + 1) + "%" }}
       >
-        <JakobKrakel />
+        <Lomo />
       </div>
       <div
         className="memberCard"
         style={{ width: 100 / (membersArr.length + 1) + "%" }}
       >
-        <JakobKrakel />
+        <Mokohuiu />
+      </div>
+      <div
+        className="memberCard"
+        style={{ width: 100 / (membersArr.length + 1) + "%" }}
+      >
+        <Resaresa />
       </div>
     </div>
   );

@@ -7,5 +7,5 @@ export const jakobKrakel = {
   instagramLink: "https://www.instagram.com/jakob.krakel",
   soundcloud: "jakobkrakel",
   soundcloudLink: "https://www.soundcloud.com/jakobkrakel",
-  wantedFor: "public affray",
+  wantedFor: "libelling an official",
 };
