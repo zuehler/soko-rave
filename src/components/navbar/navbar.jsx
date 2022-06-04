@@ -6,12 +6,12 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import { Start } from "../subpages/start/start.jsx";
-import { Members } from "../subpages/members/members.jsx";
-import { Media } from "../subpages/media/media.jsx";
-import { Shows } from "../subpages/shows/shows.jsx";
-import { Contact } from "../subpages/contact/contact.jsx";
-import { Merch } from "../subpages/merch/merch.jsx";
+import { Start } from "../../pages/start/start.jsx";
+import { Members } from "../../pages/members/members.jsx";
+import { Media } from "../../pages/media/media.jsx";
+import { Shows } from "../../pages/shows/shows.jsx";
+import { Contact } from "../../pages/contact/contact.jsx";
+import { Merch } from "../../pages/merch/merch.jsx";
 
 export const Navbar = () => {
   const navlinks = ["start", "members", "media", "shows", "contact", "merch"];

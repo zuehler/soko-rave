@@ -1,5 +1,5 @@
-import members from "../../../../data/members.json";
-import { camelizeWords } from "../../../../tools/camelizeWords.jsx";
+import members from "../../../data/members.json";
+import { camelizeWords } from "../../../tools/camelizeWords.jsx";
 
 export const MemberCarousel = () => {
   return (
