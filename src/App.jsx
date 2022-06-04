@@ -6,10 +6,10 @@ import { Navbar } from "./components/navbar/navbar.jsx";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Header />
       <Navbar />
-    </>
+    </div>
   );
 }
 

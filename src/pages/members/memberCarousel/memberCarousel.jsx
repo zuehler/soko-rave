@@ -1,4 +1,5 @@
-import members from "../../../../data/members.json";
+import members from "../../../data/members.json";
+import { camelizeWords } from "../../../tools/camelizeWords.jsx";
 
 export const MemberCarousel = () => {
   return (
@@ -11,7 +12,7 @@ export const MemberCarousel = () => {
             style={{ width: 100 / (members.length + 1) + "%" }}
           >
             <img
-              src={`./public/mugshot_${member.name.toLowerCase()}.jpg`}
+              src={`./public/mugshot_${camelizeWords(member.name)}.jpg`}
               alt={member.name}
             />
             <h2>{member.name}</h2>

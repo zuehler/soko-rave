@@ -1,5 +1,7 @@
 :root {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   --javaYellow: #f9e64f;
   --titaniumYellow: #ddd92a;
 
@@ -8,7 +10,7 @@
   --fontColor: whitesmoke;
 }
 
-html {
+body {
   background-color: var(--bgColor);
   display: flex;
   flex-flow: column nowrap;
@@ -19,13 +21,20 @@ html {
 }
 
 .App {
+  // border: 1px solid hotpink;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
 }
 
 .header {
   display: flex;
   flex-flow: row nowrap;
-
+  align-items: center;
   justify-content: center;
+
   h1 {
     display: flex;
     flex-flow: row nowrap;
@@ -37,6 +46,7 @@ html {
 
     background-color: var(--copBlue);
     padding: 1rem;
+    margin: 2rem;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 10px var(--copBlue);
   }
@@ -46,9 +56,8 @@ html {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
-  width: 80vw;
-  border: 1px solid green;
-  margin: 1rem 0;
+  width: 90%;
+  margin: 0.5rem 0;
 
   span * {
     display: flex;
@@ -87,6 +96,7 @@ html {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    transition: ease-in-out 1s;
 
     .memberCard {
       display: flex;
@@ -94,8 +104,9 @@ html {
       justify-content: space-evenly;
       align-items: center;
       margin: 0;
-      padding: 0;
+      padding: 1rem 0rem;
       border: 1px solid var(--copBlue);
+      border-radius: 10px;
       box-shadow: 0px 0px 5px 2px var(--copBlue);
       transition: ease-in-out 0.25s;
       white-space: nowrap;
