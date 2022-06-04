@@ -1,73 +1,124 @@
 [
   {
     "name": "Gucci",
-    "style": "dark techno / dark disco",
-    "lastSeen": "21 May 2022 / Dresden / Hall und Rauch / secret location",
+    "style": ["dark techno", "dark disco"],
+    "lastSeen": {
+      "date": "21 May 2022",
+      "party": "Hall&Rauch",
+      "city": "Dresden",
+      "location": "secret location"
+    },
     "email": "soko_rave@protonmail.com",
-    "instagram": "",
-    "instagramLink": "",
-    "soundcloud": "gucci_dd",
-    "soundcloudLink": "https://www.soundcloud.com/gucci_dd",
+    "instagram": { "username": "tba", "link": "" },
+    "soundcloud": {
+      "username": "gucci_dd",
+      "link": "https://www.soundcloud.com/gucci_dd"
+    },
     "wantedFor": "assumption of authority"
   },
 
   {
     "name": "Hermyla",
-    "style": "techno / acid techno / tekno",
-    "lastSeen": "21 May 2022 / Dresden / Hall und Rauch / secret location",
+    "style": ["techno", "acid techno", "tekno"],
+    "lastSeen": {
+      "date": "21 May 2022",
+      "party": "Hall&Rauch",
+      "city": "Dresden",
+      "location": "secret location"
+    },
     "email": "hermyla.booking@protonmail.com",
-    "instagram": "@_hermyla",
-    "instagramLink": "https://www.instagram.com/_hermyla",
-    "soundcloud": "hermyla",
-    "soundcloudLink": "https://www.soundcloud.com/hermyla",
+    "instagram": {
+      "username": "@_hermyla",
+      "link": "https://www.instagram.com/_hermyla"
+    },
+    "soundcloud": {
+      "username": "hermyla",
+      "link": "https://www.soundcloud.com/hermyla"
+    },
     "wantedFor": "disturbance of public order"
   },
 
   {
     "name": "Jakob Krakel",
-    "style": "tech house / techno / slow techno",
-    "lastSeen": "21 May 2022 / Dresden / Hall und Rauch / secret location",
+    "style": ["tech house", "techno", "slow techno"],
+    "lastSeen": {
+      "date": "21 May 2022",
+      "party": "Hall&Rauch",
+      "city": "Dresden",
+      "location": "secret location"
+    },
     "email": "jakob.krakel@mail.de",
-    "instagram": "@jakob.krakel",
-    "instagramLink": "https://www.instagram.com/jakob.krakel",
-    "soundcloud": "jakobkrakel",
-    "soundcloudLink": "https://www.soundcloud.com/jakobkrakel",
+    "instagram": {
+      "username": "@jakob.krakel",
+      "link": "https://www.instagram.com/jakob.krakel"
+    },
+    "soundcloud": {
+      "username": "jakobkrakel",
+      "link": "https://www.soundcloud.com/jakobkrakel"
+    },
     "wantedFor": "libelling an official"
   },
 
   {
     "name": "Lomo",
-    "style": "techno / peak time / acid",
-    "lastSeen": "21 May 2022 / Dresden / Hall und Rauch / secret location",
+    "style": ["techno", "peak time", "acid"],
+    "lastSeen": {
+      "date": "21 May 2022",
+      "party": "Hall&Rauch",
+      "city": "Dresden",
+      "location": "secret location"
+    },
     "email": "lomo_dj@protonmail.com",
-    "instagram": "@____lomo",
-    "instagramLink": "https://www.instagram.com/____lomo",
-    "soundcloud": "lomodj",
-    "soundcloudLink": "https://www.soundcloud.com/lomodj",
+    "instagram": {
+      "username": "@____lomo",
+      "link": "https://www.instagram.com/____lomo"
+    },
+    "soundcloud": {
+      "username": "lomodj",
+      "link": "https://www.soundcloud.com/lomodj"
+    },
     "wantedFor": "scandalization"
   },
 
   {
     "name": "mOkOhUiU",
-    "style": "vinyl / house / techno",
-    "lastSeen": "21 May 2022 / Dresden / Hall und Rauch / secret location",
+    "style": ["vinyl", "house", "techno"],
+    "lastSeen": {
+      "date": "21 May 2022",
+      "party": "Hall&Rauch",
+      "city": "Dresden",
+      "location": "secret location"
+    },
     "email": "soko_rave@protonmail.com",
-    "instagram": "@mokohuiu",
-    "instagramLink": "https://instagram.com/mokohui",
-    "soundcloud": "mokohuiu",
-    "soundcloudLink": "https://www.soundcloud.com/mokohuiu",
+    "instagram": {
+      "username": "@mokohuiu",
+      "link": "https://instagram.com/mokohui"
+    },
+    "soundcloud": {
+      "username": "mokohuiu",
+      "link": "https://www.soundcloud.com/mokohuiu"
+    },
     "wantedFor": "wild camping"
   },
 
   {
     "name": "resaresa",
-    "style": "downtempo / breakbeat / techno / acid",
-    "lastSeen": "21 May 2022 / Dresden / Hall und Rauch / secret location",
+    "style": ["downtempo", "breakbeat", "techno", "acid"],
+    "lastSeen": {
+      "date": "21 May 2022",
+      "party": "Hall&Rauch",
+      "city": "Dresden",
+      "location": "secret location"
+    },
     "email": "soko_rave@protonmail.com",
-    "instagram": "@resaresa__",
-    "instagramLink": "https://instagram.com/resaresa__",
-    "soundcloud": "@resa_resa",
-    "soundcloudLink": "https://www.soundcloud.com/resa_resa",
+    "instagram": {
+      "username": "@resaresa__",
+      "link": "https://instagram.com/resaresa__"
+    },
+    "soundcloud": {
+      "username": "@resa_resa",
+      "link": "https://www.soundcloud.com/resa_resa"
+    },
     "wantedFor": "noise annoyance"
   }
 ]
