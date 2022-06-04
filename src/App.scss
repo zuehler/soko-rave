@@ -10,13 +10,14 @@
 html {
   background-color: var(--bgColor);
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
+  align-items: center;
   color: var(--fontColor);
   text-shadow: 0px 0px 5px var(--fontColor);
 }
 
 .App {
-  text-align: center;
 }
 
 .header {
@@ -82,34 +83,7 @@ html {
     flex-flow: row wrap;
     justify-content: space-evenly;
 
-    a {
-      color: var(--fontColor);
-      transition: ease-in-out 0.5s;
-    }
-
-    a:hover {
-      color: var(--titaniumYellow);
-      font-size: 1.1rem;
-      transition: ease-in-out 0.5s;
-    }
-
     .memberCard {
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: space-evenly;
-      align-items: center;
-      margin: 3rem 1rem;
-      border: 1px solid green;
-      img {
-        width: 70%;
-        border: 1px solid var(--copBlue);
-        box-shadow: 0px 0px 3px 0px var(--copBlue);
-        margin: 1rem;
-      }
-    }
-
-    .innerMemberCard {
-      width: 100%;
       display: flex;
       flex-flow: column nowrap;
       justify-content: space-evenly;
@@ -118,17 +92,35 @@ html {
       padding: 0;
       border: 1px solid yellow;
       transition: ease-in-out 0.25s;
+
+      img {
+        width: 70%;
+        border: 1px solid var(--copBlue);
+        box-shadow: 0px 0px 3px 0px var(--copBlue);
+        margin: 1rem;
+      }
+
+      ul {
+        list-style: none;
+        text-align: center;
+        margin: 0.5rem;
+      }
+
+      a {
+        color: var(--fontColor);
+        transition: ease-in-out 0.5s;
+      }
+
+      a:hover {
+        color: #f67a29;
+        font-size: 1.1rem;
+        transition: ease-in-out 0.5s;
+      }
     }
 
-    .innerMemberCard:hover {
+    .memberCard:hover {
       transition: ease-in-out 0.25s;
       transform: scale(1.2);
-    }
-
-    div > ul {
-      list-style: none;
-      text-align: center;
-      margin: 0.5rem;
     }
   }
 }
