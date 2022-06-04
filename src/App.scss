@@ -1,4 +1,5 @@
 :root {
+  box-sizing: border-box;
   --javaYellow: #f9e64f;
   --titaniumYellow: #ddd92a;
 
@@ -66,7 +67,7 @@ html {
 }
 
 .members {
-  border: 1px solid tomato;
+  // border: 1px solid tomato;
 
   display: flex;
   flex-flow: column nowrap;
@@ -74,11 +75,15 @@ html {
   align-items: center;
   width: 90vw;
 
+  h1 {
+    margin: 1rem;
+  }
+
   .memberCarousel {
     width: 90%;
-    padding: 3rem 1rem;
+    padding: 1rem;
 
-    border: 1px solid hotpink;
+    // border: 1px solid hotpink;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -90,20 +95,45 @@ html {
       align-items: center;
       margin: 0;
       padding: 0;
-      border: 1px solid yellow;
+      border: 1px solid var(--copBlue);
+      box-shadow: 0px 0px 5px 2px var(--copBlue);
       transition: ease-in-out 0.25s;
+      white-space: nowrap;
+      overflow: visible;
 
       img {
         width: 70%;
         border: 1px solid var(--copBlue);
-        box-shadow: 0px 0px 3px 0px var(--copBlue);
+        box-shadow: 0px 0px 5px 2px var(--copBlue);
+
         margin: 1rem;
       }
 
       ul {
         list-style: none;
-        text-align: center;
-        margin: 0.5rem;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        transition: ease-in-out 0.5s;
+
+        li {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          margin: 0.1rem;
+          transition: ease-in-out 0.5s;
+        }
+        li:first-child {
+          margin: 0.5rem;
+          color: #f67a29;
+          text-shadow: 0px 0px 5px #f67a29;
+        }
+        li:hover {
+          text-shadow: 0px 0px 5px #f67a29;
+          transition: ease-in-out 0.5s;
+        }
       }
 
       a {
