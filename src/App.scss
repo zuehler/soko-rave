@@ -75,6 +75,18 @@ body {
   }
 }
 
+.start {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  // border: 1px solid hotpink;
+
+  h1 {
+    margin: 3rem;
+  }
+}
+
 .members {
   // border: 1px solid tomato;
 
