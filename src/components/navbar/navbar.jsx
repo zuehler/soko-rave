@@ -1,11 +1,13 @@
 import React from "react";
 import {
   BrowserRouter as Router,
+  Navigate,
   NavLink,
   Outlet,
   Routes,
   Route,
 } from "react-router-dom";
+import { useState } from "react";
 import { Start } from "../../pages/start/start.jsx";
 import { Members } from "../../pages/members/members.jsx";
 import { Media } from "../../pages/media/media.jsx";
@@ -15,6 +17,10 @@ import { Merch } from "../../pages/merch/merch.jsx";
 
 export const Navbar = () => {
   const navlinks = ["start", "members", "media", "shows", "contact", "merch"];
+  // const [activeBtn, setActiveBtn] = useState("start");
+  // const toggleBtnColor = (e) => {
+  //   e.target;
+  // };
 
   return (
     <Router>
@@ -23,7 +29,12 @@ export const Navbar = () => {
           return (
             <span
               key={navlink}
-              style={{ width: 100 / (navlinks.length + 1) + "%" }}
+              style={
+                { width: 100 / (navlinks.length + 1) + "%" }
+                // +  { color: { navlink } === activeBtn ? "orange" : "white" }
+                // }
+                // onClick={toggleBtnColor(navlink)
+              }
             >
               <NavLink to={navlink}>{navlink}</NavLink>
             </span>
@@ -48,6 +59,7 @@ export const Navbar = () => {
       </Routes> */}
 
       <Routes>
+        <Route path="/" element={<Navigate to="start" replace />} />
         <Route path="start" element={<Start />} />
         <Route path="members" element={<Members />} />
         <Route path="media" element={<Media />} />
