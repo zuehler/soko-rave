@@ -107,6 +107,7 @@ body {
 
   h1 {
     align-self: center;
+    justify-self: flex-start;
   }
   span {
     display: flex;
@@ -114,7 +115,7 @@ body {
     justify-content: space-evenly;
     padding: 1rem;
     border: 1px solid yellow;
-    height: 30%;
+    max-height: 20%;
     border: 1px solid var(--copBlue);
     border-radius: 10px;
     box-shadow: 0px 0px 5px 2px var(--copBlue);
@@ -158,30 +159,31 @@ body {
     }
   }
 
-  div {
-    width: 100%;
+  .btnContainer {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: center;
-    transition: ease-in-out 0.25s;
-
+    margin-top: 2rem;
     button {
-      margin: 1rem 0;
+      align-self: flex-end;
+      min-width: 6rem;
+      margin: 1rem 0.5rem;
       padding: 0.2rem;
       background-color: var(--copBlue);
       border-radius: 10px;
-      box-shadow: 0px 0px 3px 2px var(--copBlue);
       color: var(--fontColor);
       font-weight: bold;
       text-shadow: 0px 0px 5px var(--fontColor);
       transition: ease-in-out 0.25s;
     }
 
-    button:active {
+    button:active,
+    button:focus {
       color: var(--stickerOrange);
       text-shadow: 0px 0px 5px var(--stickerOrange);
       transition: ease-in-out 0.25s;
+      border: 1px solid var(--stickerOrange);
+      box-shadow: 0px px 1px 1px var(--stickerOrange);
     }
   }
 }
@@ -241,14 +243,14 @@ body {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
-        transition: ease-in-out 0.5s;
+        transition: ease-in-out 0.25s;
 
         li {
           display: flex;
           flex-flow: row nowrap;
           justify-content: center;
           margin: 0.1rem;
-          transition: ease-in-out 0.5s;
+          transition: ease-in-out 0.25s;
         }
         li:first-child {
           margin: 0.5rem;
@@ -257,19 +259,19 @@ body {
         }
         li:hover {
           text-shadow: 0px 0px 5px #f67a29;
-          transition: ease-in-out 0.5s;
+          transition: ease-in-out 0.25s;
         }
       }
 
       a {
         color: var(--fontColor);
-        transition: ease-in-out 0.5s;
+        transition: ease-in-out 0.25s;
       }
 
       a:hover {
         color: #f67a29;
         font-size: 1.1rem;
-        transition: ease-in-out 0.5s;
+        transition: ease-in-out 0.25s;
       }
     }
 

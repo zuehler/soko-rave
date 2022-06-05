@@ -1,7 +1,11 @@
 import sokoData from "../../data/soko.json";
 import memberData from "../../data/members.json";
+import { useState } from "react";
+import { camelizeWords } from "../../tools/camelizeWords.jsx";
 
 export const Contact = () => {
+  const [activeMember, setActiveMember] = useState("none");
+
   return (
     <div className="contact">
       <h1>contact</h1>
@@ -25,20 +29,42 @@ export const Contact = () => {
           </li>
         </ul>
       </span>
-      <div>
+      <div className="btnContainer">
         {memberData.map((member, index) => {
           return (
             <button
               key={index}
-              className={`pickMemberBtn ${member.name}`}
-              style={{ width: 100 / (memberData.length + 1) + "%" }}
+              className={camelizeWords(member.name)}
+              value={activeMember}
+              style={{
+                width: 100 / (memberData.length + 1) + "%",
+                color:
+                  activeMember === camelizeWords(member.name)
+                    ? "#f67a29"
+                    : "whitesmoke",
+                textShadow:
+                  activeMember === camelizeWords(member.name)
+                    ? "0px 0px 5px #f67a29"
+                    : "0px 0px 5px whitesmoke",
+                border:
+                  activeMember === camelizeWords(member.name)
+                    ? "1px solid #f67a29"
+                    : "",
+                boxShadow:
+                  activeMember === camelizeWords(member.name)
+                    ? "0px 0px 1px 1px #f67a29"
+                    : "",
+              }}
+              onClick={(e) => {
+                setActiveMember(camelizeWords(member.name));
+              }}
             >
               {member.name}
             </button>
           );
         })}
       </div>
-      <span className="contactMember">
+      <span className={`contactMember ${activeMember}`}>
         <img
           src="./public/mugshot_jakobKrakel.jpg"
           alt=""
