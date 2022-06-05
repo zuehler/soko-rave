@@ -9,7 +9,7 @@ export const Contact = () => {
 
   return (
     <div className="contact">
-      <h1>contact</h1>
+      <h1>SOKO_RAVE | bitte folgen! </h1>
 
       <ContactSoko />
 
@@ -55,6 +55,7 @@ export const Contact = () => {
           <li>
             email:{" "}
             <a
+              target="_blank"
               href={`mailto: ${memberData
                 .map((member) => {
                   return activeMember === member.name ? member.email : "";
@@ -71,6 +72,7 @@ export const Contact = () => {
           <li>
             instagram:{" "}
             <a
+              target="_blank"
               href={memberData
                 .map((member) => {
                   return activeMember === member.name
@@ -91,6 +93,7 @@ export const Contact = () => {
           <li>
             soundcloud:{" "}
             <a
+              target="_blank"
               href={memberData
                 .map((member) => {
                   return activeMember === member.name

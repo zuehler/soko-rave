@@ -89,10 +89,13 @@ body {
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
+  width: 90vw;
+
   // border: 1px solid hotpink;
 
   h1 {
-    margin: 3rem;
+    align-self: center;
+    justify-self: flex-start;
   }
 }
 
@@ -103,7 +106,7 @@ body {
   align-items: center;
   height: 70vh;
   width: 70%;
-  border: 1px solid tomato;
+  // border: 1px solid tomato;
 
   h1 {
     align-self: center;
@@ -211,9 +214,8 @@ body {
   width: 90vw;
 
   h1 {
-    margin: 1rem;
-    // color: var(--stickerOrange);
-    // text-shadow: 0px 0px 5px var(--stickerOrange);
+    align-self: center;
+    justify-self: flex-start;
   }
 
   .memberCarousel {
