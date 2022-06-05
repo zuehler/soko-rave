@@ -2,33 +2,16 @@ import sokoData from "../../data/soko.json";
 import memberData from "../../data/members.json";
 import { useState } from "react";
 import { camelizeWords } from "../../tools/camelizeWords.jsx";
+import { ContactSoko } from "../../components/contact/contactSoko/contactSoko.jsx";
 
 export const Contact = () => {
-  const [activeMember, setActiveMember] = useState("none");
+  const [activeMember, setActiveMember] = useState("gucci");
 
   return (
     <div className="contact">
       <h1>contact</h1>
+      <ContactSoko />
 
-      <span className="contactSoko">
-        <img src="./public/soko_rave_logo.jpg" alt="" className="sokoLogo" />
-        <ul>
-          <li>{sokoData.name}</li>
-          <li>
-            email: <a href={`mailto: ${sokoData.email}`}>{sokoData.email}</a>
-          </li>
-          <li>
-            instagram:{" "}
-            <a href={sokoData.instagram.link}>{sokoData.instagram.username}</a>
-          </li>
-          <li>
-            soundcloud:{" "}
-            <a href={sokoData.soundcloud.link}>
-              {sokoData.soundcloud.username}
-            </a>
-          </li>
-        </ul>
-      </span>
       <div className="btnContainer">
         {memberData.map((member, index) => {
           return (
@@ -37,7 +20,7 @@ export const Contact = () => {
               className={camelizeWords(member.name)}
               value={activeMember}
               style={{
-                width: 100 / (memberData.length + 1) + "%",
+                width: 200 / (memberData.length + 1) + "%",
                 color:
                   activeMember === camelizeWords(member.name)
                     ? "#f67a29"
@@ -66,12 +49,12 @@ export const Contact = () => {
       </div>
       <span className={`contactMember ${activeMember}`}>
         <img
-          src="./public/mugshot_jakobKrakel.jpg"
-          alt=""
-          className="sokoFoto"
+          src={`./public/mugshot_${activeMember}.jpg`}
+          alt={activeMember}
+          className={activeMember}
         />
         <ul>
-          <li>{memberData[0].name}</li>
+          <li>GUCCI</li>
           <li>
             email: <a href={`mailto: ${sokoData.email}`}>{sokoData.email}</a>
           </li>
