@@ -8,15 +8,22 @@ export const ContactSoko = () => {
       <ul>
         <li>{sokoData.name}</li>
         <li>
-          email: <a href={`mailto: ${sokoData.email}`}>{sokoData.email}</a>
+          email:{" "}
+          <a target="_blank" href={`mailto: ${sokoData.email}`}>
+            {sokoData.email}
+          </a>
         </li>
         <li>
           instagram:{" "}
-          <a href={sokoData.instagram.link}>{sokoData.instagram.username}</a>
+          <a target="_blank" href={sokoData.instagram.link}>
+            {sokoData.instagram.username}
+          </a>
         </li>
         <li>
           soundcloud:{" "}
-          <a href={sokoData.soundcloud.link}>{sokoData.soundcloud.username}</a>
+          <a target="_blank" href={sokoData.soundcloud.link}>
+            {sokoData.soundcloud.username}
+          </a>
         </li>
       </ul>
     </span>
