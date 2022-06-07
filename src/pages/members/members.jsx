@@ -1,4 +1,6 @@
-import { MemberCarousel } from "./memberCarousel/memberCarousel.jsx";
+import "../../styles/subpage-members/members.scss";
+
+import { MemberCarousel } from "../../components/members/memberCarousel/memberCarousel";
 
 export const Members = () => {
   return (

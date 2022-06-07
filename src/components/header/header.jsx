@@ -1,3 +1,4 @@
+import "../../styles/header/header.scss";
 import React from "react";
 
 export const Header = () => {

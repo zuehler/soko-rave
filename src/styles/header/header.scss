@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 80vw;
+
+    font-size: 3rem;
+    font-weight: bold;
+
+    background-color: var(--copBlue);
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px var(--copBlue);
+  }
+}
