@@ -1,0 +1,27 @@
+[
+  {
+    "party": "Hall&Rauch",
+    "info": "SOKO_RAVE for friends",
+    "date": "21 May 2022",
+    "location": "secret location",
+    "city": "Dresden",
+    "members": [
+      "Gucci",
+      "Hermyla",
+      "Jakob Krakel",
+      "Lomo",
+      "Mokohuiu",
+      "resaresa"
+    ],
+    "additional": "2G"
+  },
+  {
+    "party": "Tanz in den Mai",
+    "info": "Hertzbeben open air",
+    "date": "30 Apr 2022",
+    "location": "Südsee",
+    "city": "Braunschweig",
+    "members": ["Jakob Krakel", "resaresa"],
+    "additional": "2G"
+  }
+]

@@ -1,0 +1,14 @@
+.start {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90vw;
+
+  // border: 1px solid hotpink;
+
+  h1 {
+    align-self: center;
+    justify-self: flex-start;
+  }
+}

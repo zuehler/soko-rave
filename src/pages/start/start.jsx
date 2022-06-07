@@ -1,3 +1,5 @@
+import "../../styles/subpage-start/start.scss";
+
 export const Start = () => {
   return (
     <div className="start">
