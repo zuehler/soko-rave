@@ -21,7 +21,7 @@ export const Contact = () => {
               className={camelizeWords(member.name)}
               value={`${activeMember}`}
               style={{
-                width: 200 / (memberData.length + 1) + "%",
+                width: 100 / (memberData.length + 1) + "%",
                 color:
                   activeMember === `${member.name}` ? "#f67a29" : "whitesmoke",
                 textShadow:
