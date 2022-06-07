@@ -8,7 +8,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import { useState } from "react";
 import { Start } from "../../pages/start/start.jsx";
 import { Members } from "../../pages/members/members.jsx";
 import { Media } from "../../pages/media/media.jsx";

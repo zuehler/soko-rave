@@ -1,27 +1,130 @@
-[
-  {
-    "party": "Hall&Rauch",
-    "info": "SOKO_RAVE for friends",
-    "date": "21 May 2022",
-    "location": "secret location",
-    "city": "Dresden",
-    "members": [
-      "Gucci",
-      "Hermyla",
-      "Jakob Krakel",
-      "Lomo",
-      "Mokohuiu",
-      "resaresa"
-    ],
-    "additional": "2G"
-  },
-  {
-    "party": "Tanz in den Mai",
-    "info": "Hertzbeben open air",
-    "date": "30 Apr 2022",
-    "location": "Südsee",
-    "city": "Braunschweig",
-    "members": ["Jakob Krakel", "resaresa"],
-    "additional": "2G"
-  }
-]
+{
+  "upcoming": [
+    {
+      "party": "Pressure Vibes x Love Foundation",
+      "info": "Zelt floor opening",
+      "date": "11 June 2022",
+      "location": "Sektor Evolution",
+      "city": "Dresden",
+      "members": ["resaresa"],
+      "additional": "daily negative test required"
+    },
+    {
+      "party": "FOMO Festival",
+      "info": "rave on",
+      "date": "17-19 June 2022",
+      "location": "Chikago",
+      "city": "secret location",
+      "members": ["Jakob Krakel", "resaresa"],
+      "additional": "3G"
+    },
+    {
+      "party": "How to: Ableton",
+      "info": "Workshop",
+      "date": "25-27 July 2022",
+      "location": "Rösslstube",
+      "city": "Dresden",
+      "members": ["Hermyla"],
+      "additional": ""
+    },
+    {
+      "party": "Komplexival",
+      "info": "Festival",
+      "date": "22-24 July 2022",
+      "location": "",
+      "city": "Münchberg",
+      "members": ["Gucci", "Jakob Krakel", "resaresa"],
+      "additional": "3G"
+    },
+    {
+      "party": "StiWo",
+      "info": "Start ins Wochenende",
+      "date": "10 August 2022",
+      "location": "AZ Conni",
+      "city": "Dresden",
+      "members": ["Gucci", "Jakob Krakel", "Lomo", "resaresa"],
+      "additional": "3G"
+    },
+    {
+      "party": "Wir am Bahnhof",
+      "info": "Festival",
+      "date": "26-28 August 2022",
+      "location": "",
+      "city": "Balitz",
+      "members": ["Lomo"],
+      "additional": "-"
+    }
+  ],
+  "recent": [
+    {
+      "party": "Hall&Rauch",
+      "info": "SOKO_RAVE for friends",
+      "date": "21 May 2022",
+      "location": "secret location",
+      "city": "Dresden",
+      "members": [
+        "Gucci",
+        "Hermyla",
+        "Jakob Krakel",
+        "Lomo",
+        "Mokohuiu",
+        "resaresa"
+      ],
+      "additional": "2G"
+    },
+    {
+      "party": "Tolerade Aftershow",
+      "info": "Happalé Kollektiv",
+      "date": "14 May 2022",
+      "location": "Sektor Evolution",
+      "city": "Dresden",
+      "members": ["Lomo"],
+      "additional": "daily negative test required"
+    },
+    {
+      "party": "Tolerade: Klimafloor",
+      "info": "BUND, Fridays for Future, Pinke Hände, WGAWA eV ",
+      "date": "14 May 2022",
+      "location": "Truck #4",
+      "city": "Dresden",
+      "members": ["Lomo", "Jakob Krakel", "resaresa"],
+      "additional": ""
+    },
+    {
+      "party": "Richtfest",
+      "info": "Soliparty",
+      "date": "7 May 2022",
+      "location": "Meschwitzstraße 13",
+      "city": "Dresden",
+      "members": ["Lomo", "resaresa"],
+      "additional": "opening 14:00 playtime 22-00"
+    },
+    {
+      "party": "Tanz in den Mai",
+      "info": "Hertzbeben open air",
+      "date": "30 April 2022",
+      "location": "Südsee",
+      "city": "Braunschweig",
+      "members": ["Jakob Krakel", "resaresa"],
+      "additional": ""
+    },
+    {
+      "party": "Plan B",
+      "info": "Bar",
+      "date": "22 April 2022",
+      "location": "Görlitzer Straße",
+      "city": "Dresden",
+      "members": ["resaresa"],
+      "additional": "start 21:00"
+    },
+    {
+      "party": "Nadelwald Vol. III",
+      "info": "SOKO_RAVE: Flexible Fomo",
+      "date": "9 April 2022",
+      "location": "Rösslstube",
+      "city": "Dresden",
+      "members": ["Gucci", "Jakob Krakel", "Lomo", "Mokohuiu", "resaresa"],
+      "additional": "daily negative test required"
+    }
+  ]
+}
