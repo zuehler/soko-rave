@@ -1,16 +1,442 @@
 [
   {
-    "members": ["Jakob Krakel"],
-    "title": "Tanz in den Mai",
-    "date": "30 April 2022",
-    "location": "Südsee / Braunschweig",
-    "link": "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1263389233&color=%23f67a29&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/jakobkrakel\" title=\"Jakob Krakel\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Jakob Krakel</a> · <a href=\"https://soundcloud.com/jakobkrakel/jakob-krakel-tanz-in-den-mai-2022-braunschweig\" title=\"Jakob Krakel @ Tanz in den Mai 2022 Braunschweig (2022-04-30)\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Jakob Krakel @ Tanz in den Mai 2022 Braunschweig (2022-04-30)</a></div>"
+    "artists": ["Gucci"],
+    "title": "SOKO_RAVE x Rösslstube / Nadelwald Vol III: Flexible FOMO",
+    "genre": ["Dark Techno"],
+    "date": "9 April 2022",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/gucci_dd/flexible_fomorosslstube"
   },
   {
-    "members": ["Jakob Krakel", "Hermyla"],
+    "artists": ["Gucci"],
+    "title": "objekt klein a: Virtual Routine - welcome to the real world",
+    "genre": ["Techno", "Dark Techno"],
+    "date": "27 Februar 2021",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/gucci_dd/for-virtual-routine-welcome-to-the-real-world-objekt-klein-a-270221"
+  },
+  {
+    "artists": ["Gucci"],
+    "title": "staring contest with the ceiling and my feet",
+    "genre": ["Dark Disco"],
+    "date": "November 2020",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/gucci_dd/staring-contest-with-the-ceiling-and-my-feet"
+  },
+  {
+    "artists": ["Jakob Krakel"],
+    "title": "Tanz in den Mai",
+    "genre": ["Techno", "Dark Techno"],
+    "date": "30 April 2022",
+    "location": "Südsee / Braunschweig",
+    "link": "https://soundcloud.com/jakobkrakel/jakob-krakel-tanz-in-den-mai-2022-braunschweig"
+  },
+  {
+    "artists": ["Jakob Krakel"],
+    "title": "SOKO_RAVE x Rösslstube / Nadelwald Vol III: Flexible FOMO",
+    "genre": ["Tech House", "Techno"],
+    "date": "9 April 2022",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/jakobkrakel/jakob-krakel-rosslstube-dresden-2022-04-09"
+  },
+  {
+    "artists": ["Jakob Krakel", "Paul Datsche (Hertzbeben)"],
+    "title": "Datsche & Krakel im Homeoffice II: Peaktime in der Abstellkammer",
+    "genre": ["Techno"],
+    "date": "27 December 2021",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/jakobkrakel/datsche-und-krakel-im-homeoffice-ii-peaktime-in-der-abstellkammer"
+  },
+  {
+    "artists": ["Jakob Krakel"],
+    "title": "SOKO_RAVE x Rösslstube / Nadelwald Vol II",
+    "genre": ["Tech House"],
+    "date": "21 October 2021",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/jakobkrakel/jakob-krakel-roesslstube-dresden-21-10-13"
+  },
+  {
+    "artists": ["Jakob Krakel"],
+    "title": "Trick Me & My Dimension (Kelis x Detuned Mashup)",
+    "genre": ["Slow Techno", "Mashup"],
+    "date": "12 April 2021",
+    "location": "",
+    "link": "https://soundcloud.com/jakobkrakel/trick-me-my-dimension-kelis-detuned-mashup"
+  },
+  {
+    "artists": ["Jakob Krakel", "Paul Datsche (Hertzbeben)"],
+    "title": "Datsche & Krakel im Homeoffice",
+    "genre": ["Downtempo"],
+    "date": "8 February 2021",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/jakobkrakel/datsche-und-krakel-im-homeoffice"
+  },
+  {
+    "artists": ["Jakob Krakel"],
+    "title": "Welcome to Level 21",
+    "genre": ["Slow Techno"],
+    "date": "01 January 2021",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/jakobkrakel/jakob-krakel-welcome-to-level-21"
+  },
+  {
+    "artists": ["Jakob Krakel"],
+    "title": "Hot & Crazy Moscow (Groove Delight Trashup)",
+    "genre": ["Slow Techno", "Mashup"],
+    "date": "11 December 2020",
+    "location": "",
+    "link": "https://soundcloud.com/jakobkrakel/hot-and-crazy-moscow-trashup"
+  },
+  {
+    "artists": ["Jakob Krakel"],
+    "title": "Control Overload (Detuned Mashup)",
+    "genre": ["Slow Techno", "Mashup"],
+    "date": "12 August 2020",
+    "location": "",
+    "link": "https://soundcloud.com/jakobkrakel/control-overload-detuned-mashup"
+  },
+  {
+    "artists": ["Jakob Krakel"],
+    "title": "Clockworkout",
+    "genre": ["Tech House"],
+    "date": "15 February 2020",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/jakobkrakel/jakob-krakel-clockworkout"
+  },
+  {
+    "artists": ["Jakob Krakel", "Hermyla"],
+    "title": "Ready for the next decade",
+    "genre": ["Tech House"],
+    "date": "01 January 2020",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/jakobkrakel/jakob-krakel-hermyla-ready-for-the-next-decade"
+  },
+  {
+    "artists": ["Hermyla"],
+    "title": "Helgoween",
+    "genre": ["Techno"],
+    "date": "5 November 2021",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/hermyla/hermyla-helgoween"
+  },
+  {
+    "artists": ["Hermyla"],
+    "title": "SOKO_RAVE x Rösslstube / Nadelwald Vol II",
+    "genre": ["Techno"],
+    "date": "23 October 2021",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/hermyla/hermyla-rosslstube-dresden-231021"
+  },
+  {
+    "artists": ["Hermyla"],
+    "title": "You Talk Too Much",
+    "genre": ["Electronic"],
+    "date": "October 2021",
+    "location": "",
+    "link": "https://soundcloud.com/hermyla/you-talk-too-much"
+  },
+  {
+    "artists": ["Jakob Krakel", "Hermyla"],
     "title": "Tolerade: equality floor",
+    "genre": ["Tech House"],
     "date": "28 August 2021",
-    "location": "equality floor / Dresden",
-    "link": "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1123321525&color=%23f67a29&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/hermyla\" title=\"Hermyla\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Hermyla</a> · <a href=\"https://soundcloud.com/hermyla/equality-floor-tolerade-2021-jakob-krakel-hermyla\" title=\"EQUALITY FLOOR @ Tolerade 2021 Jakob Krakel &amp; Hermyla\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">EQUALITY FLOOR @ Tolerade 2021 Jakob Krakel &amp; Hermyla</a></div>"
+    "location": "Dresden",
+    "link": "https://soundcloud.com/hermyla/equality-floor-tolerade-2021-jakob-krakel-hermyla"
+  },
+  {
+    "artists": ["Hermyla"],
+    "title": "Selbstoptimierung",
+    "genre": ["Electronic"],
+    "date": "March 2021",
+    "location": "",
+    "link": "https://soundcloud.com/hermyla/selbstoptimierung"
+  },
+  {
+    "artists": ["Hermyla"],
+    "title": "Rustic",
+    "genre": ["Electronic"],
+    "date": "September 2020",
+    "location": "",
+    "link": "https://soundcloud.com/hermyla/rustic-free-download"
+  },
+  {
+    "artists": ["Hermyla"],
+    "title": "707",
+    "genre": ["Electronic"],
+    "date": "September 2020",
+    "location": "",
+    "link": "https://soundcloud.com/hermyla/707a"
+  },
+  {
+    "artists": ["Hermyla"],
+    "title": "drop dead!",
+    "genre": ["Techno"],
+    "date": "March 2020",
+    "location": "",
+    "link": "https://soundcloud.com/hermyla/drop-dead"
+  },
+  {
+    "artists": ["Hermyla"],
+    "title": "Sie scheppert",
+    "genre": ["Techno"],
+    "date": "April 2020",
+    "location": "",
+    "link": "https://soundcloud.com/hermyla/sie-scheppert"
+  },
+  {
+    "artists": ["Hermyla"],
+    "title": "Weinregal",
+    "genre": ["Techno"],
+    "date": "May 2020",
+    "location": "",
+    "link": "https://soundcloud.com/hermyla/weinregal"
+  },
+  {
+    "artists": ["Hermyla"],
+    "title": "Deconditioning",
+    "genre": ["Techno"],
+    "date": "March 2020",
+    "location": "",
+    "link": "https://soundcloud.com/hermyla/deconditioning"
+  },
+  {
+    "artists": ["Hermyla"],
+    "title": "SOKO RAVE",
+    "genre": ["Techno"],
+    "date": "17 August 2019",
+    "location": "",
+    "link": "https://soundcloud.com/sokorave/hermyla"
+  },
+  {
+    "artists": ["Hermyla", "Lomo"],
+    "title": "Lomo & Hermyla - qwertz vs. qwertz",
+    "genre": ["Techno"],
+    "date": "June 2019",
+    "location": "",
+    "link": "https://soundcloud.com/hermyla/lomo-hermyla-qwertz-vs-qwertz"
+  },
+  {
+    "artists": ["Hermyla", "Lomo"],
+    "title": "Lomo & Hermyla - qwerty vs. qwerty",
+    "genre": ["Techno"],
+    "date": "May 2019",
+    "location": "",
+    "link": "https://soundcloud.com/hermyla/lomo-hermyla-qwerty-vs-qwerty"
+  },
+  {
+    "artists": ["Lomo", "resaresa"],
+    "title": "Richtfest: Barfloor",
+    "genre": ["Downtempo", "Disco", "Indie Dance"],
+    "date": "7 May 2022",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/lomodj/richtfest-lomob2bresaresa"
+  },
+  {
+    "artists": ["Lomo"],
+    "title": "Symposium",
+    "genre": ["Techno"],
+    "date": "January 2022",
+    "location": "",
+    "link": "https://soundcloud.com/lomodj/symposion"
+  },
+  {
+    "artists": ["Lomo"],
+    "title": "Sektor Evolution: Tolerade Afterparty / Zeltfloor 4:00-5:30",
+    "genre": ["Indie Dance", "Disco", "House"],
+    "date": "14 May 2022",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/lomodj/toleradeafterparty_sektor"
+  },
+  {
+    "artists": ["Lomo", "Hermyla"],
+    "title": "Hausfriedensbruch im Teppichladen",
+    "genre": ["Techno"],
+    "date": "October 2021",
+    "location": "",
+    "link": "https://soundcloud.com/lomodj/hausfriedensbruch-im-teppichladen-lomo-hermyla"
+  },
+  {
+    "artists": ["Lomo"],
+    "title": "Klubnetz Dresden Streaming Session / Prozecco&Friends & Radioaktiv2punkt0",
+    "genre": ["Techno"],
+    "date": "3 April 2020",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/lomodj/lomo-dj-set-klubnetz-dresden-streaming-session-3-april-2020"
+  },
+  {
+    "artists": ["Lomo"],
+    "title": "ProZeccoCast #26 Lomo",
+    "genre": ["Techno", "Tech House", "Acid"],
+    "date": "February 2020",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/prozecco/prozeccocast-26-lomo"
+  },
+  {
+    "artists": ["Lomo"],
+    "title": "Copy, Past, Waste - Ready for the next decade",
+    "genre": ["Techno", "Hard Techno", "Acid Techno"],
+    "date": "31 December 2019",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/lomodj/copy-paste-waste-nye-2019-set"
+  },
+  {
+    "artists": ["Lomo"],
+    "title": "SOKO RAVE",
+    "genre": ["Techno"],
+    "date": "17 August 2019",
+    "location": "Dresden / secret location",
+    "link": "https://soundcloud.com/sokorave/lomo"
+  },
+  {
+    "artists": ["Lomo"],
+    "title": "Woopsiedoodle / Kleino-OpenAir",
+    "genre": ["Techno"],
+    "date": "17 May 2019",
+    "location": "Halle/Saale",
+    "link": "https://soundcloud.com/lomodj/woopsiedoodle"
+  },
+  {
+    "artists": ["Lomo"],
+    "title": "Cherry Picking Mix",
+    "genre": ["Tech House"],
+    "date": "April 2019",
+    "location": "",
+    "link": "https://soundcloud.com/lomodj/cherry-picking"
+  },
+  {
+    "artists": ["Lomo"],
+    "title": "AZ Conni: Warm Up in a Hot Tub",
+    "genre": ["Techno"],
+    "date": "March 2019",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/lomodj/warm-up-in-a-hot-tub"
+  },
+  {
+    "artists": ["Lomo"],
+    "title": "Anhalter Open Air",
+    "genre": ["Techno"],
+    "date": "September 2018",
+    "location": "Halle/Saale",
+    "link": "https://soundcloud.com/lomodj/anhalter_09-2018"
+  },
+  {
+    "artists": ["mOkOhUiU", "Namunok (ROOTS)"],
+    "title": "ROOTS: ceithir",
+    "genre": ["Techno"],
+    "date": "2019",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/mokohuiu/mokohuiu-namunok-one"
+  },
+  {
+    "artists": ["mOkOhUiU", "Namunok (ROOTS)"],
+    "title": "ROOTS: Namunok-1",
+    "genre": ["Techno"],
+    "date": "2019",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/mokohuiu/mokohuiu-namunok-one"
+  },
+  {
+    "artists": ["mOkOhUiU"],
+    "title": "ROOTS: Aroha",
+    "genre": ["Techno"],
+    "date": "2019",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/mokohuiu/aroha"
+  },
+  {
+    "artists": ["mOkOhUiU", "Namunok (ROOTS)"],
+    "title": "objekt klein a: verstörend betörend",
+    "genre": ["Deep House"],
+    "date": "21 April 2019",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/objekt-klein-a/21-04-19-mokohulu-namunok-teil-2-verstorend-betorend"
+  },
+  {
+    "artists": ["resaresa"],
+    "title": "SOKO_RAVE x Rösslstube / Nadelwald Vol III: Flexible FOMO",
+    "genre": ["Breakbeat"],
+    "date": "9 April 2022",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/resa_resa/resaresa-soko_rave-x-rosslstube-090422"
+  },
+  {
+    "artists": ["resaresa"],
+    "title": "Dans(e) La Maison",
+    "genre": ["House"],
+    "date": "February 2022",
+    "location": "",
+    "link": "https://soundcloud.com/resa_resa/dans-la-maison"
+  },
+  {
+    "artists": ["resaresa"],
+    "title": "objekt klein a: Virtual Routine - welcome to the real world",
+    "genre": ["Electronic"],
+    "date": "27 February 2022",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/resa_resa/virtual-routine-objekt-klein-a-feb"
+  },
+  {
+    "artists": ["resaresa", "JØØS (Konnetivmusik)"],
+    "title": "downtempo hitparade: spätsommer @ lago bar",
+    "genre": ["downtempo"],
+    "date": "September 2021",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/resa_resa/joos-resaresa-lago-bar"
+  },
+  {
+    "artists": ["resaresa"],
+    "title": "Tolerade: equality floor",
+    "genre": ["Breakbeat"],
+    "date": "28 August 2021",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/resa_resa/equality-floor-tolerade-2021"
+  },
+  {
+    "artists": ["resaresa", "Moicht (Dübleau)"],
+    "title": "THC 1. OG - Manfred & Sabine",
+    "genre": ["Downtempo"],
+    "date": "June 2021",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/resa_resa/thc-1-og"
+  },
+  {
+    "artists": ["resaresa"],
+    "title": "ProZeccoCast #38 resaresa",
+    "genre": ["Downtempo"],
+    "date": "May 2021",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/prozecco/prozeccocast-38-resaresa"
+  },
+  {
+    "artists": ["resaresa"],
+    "title": "magic ride pt2 // sunday afternoon",
+    "genre": ["deepdown"],
+    "date": "15 November 2020",
+    "location": "",
+    "link": "https://soundcloud.com/resa_resa/sunday-afternoon-pt2"
+  },
+  {
+    "artists": ["resaresa"],
+    "title": "magic ride pt1 // sunday afternoon",
+    "genre": ["deepdown"],
+    "date": "13 September 2020",
+    "location": "",
+    "link": "https://soundcloud.com/resa_resa/sunday-afternoon-pt1"
+  },
+  {
+    "artists": ["resaresa"],
+    "title": "im tunnel bitte wenden",
+    "genre": ["Techno"],
+    "date": "May 2020",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/resa_resa/quick-dirty"
+  },
+  {
+    "artists": ["resaresa"],
+    "title": "Küchenquarantäneset",
+    "genre": ["Downtempo"],
+    "date": "January 2020",
+    "location": "Dresden",
+    "link": "https://soundcloud.com/resa_resa/kuchenquarantaneset"
   }
 ]
