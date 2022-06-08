@@ -4,16 +4,32 @@ import ReactPlayer from "react-player";
 import { useState } from "react";
 
 export const Media = () => {
+  // const [keywords, setKeywords] = useState("2022");
+  // const filteredSets = sets.filter((set) => {
+  //   set.artists.includes("Gucci");
+  // });
+  // console.log(filteredSets);
+  // || set.genre.includes("2022");
+  // ||
+  // Object.values(set).join().includes("2022")
+
+  // console.log(sets[0].artists.includes("Gucci"));
+  // {
+  //   sets.artists.filter((artist) => {
+  //     artist.includes("Gucci");
+  //   });
+  // }
+
   return (
     <div className="media">
       <h1>SOKO_RAVE | records</h1>
-      <div className="searchBar">
+      <form>
         <label>filter</label>
         <input
           type="text"
-          placeholder="e.g. Lomo, objekt klein a, Techno, Braunschweig ..."
+          placeholder="e.g. objekt klein a, Acid, Lomo, Braunschweig ..."
         />
-      </div>
+      </form>
       <div className="sets">
         <ul>
           {sets
