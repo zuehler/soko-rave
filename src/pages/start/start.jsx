@@ -1,4 +1,5 @@
 import "../../styles/subpage-start/start.scss";
+import "../../styles/subpage-start/start-small.scss";
 
 export const Start = () => {
   return (

@@ -1,6 +1,4 @@
 .members {
-  // border: 1px solid tomato;
-
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
@@ -16,23 +14,28 @@
     width: 90%;
     padding: 1rem;
 
-    // border: 1px solid hotpink;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
     transition: ease-in-out 1s;
+    overflow-x: scroll;
 
     .memberCard {
       display: flex;
       flex-flow: column nowrap;
       justify-content: space-evenly;
       align-items: center;
+
       margin: 0;
       padding: 1rem 0rem;
+      min-width: 150px;
+
       border: 1px solid var(--copBlue);
       border-radius: 10px;
       box-shadow: 0px 0px 5px 2px var(--copBlue);
+
       transition: ease-in-out 0.25s;
+
       white-space: nowrap;
       overflow: visible;
 
