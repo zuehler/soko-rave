@@ -4,7 +4,7 @@ import sokoData from "../../../data/soko.json";
 export const ContactSoko = () => {
   return (
     <span className="contactSoko">
-      <img src="./public/soko_rave_logo.jpg" alt="" className="sokoLogo" />
+      <img src="../public/soko_rave_logo.jpg" alt="" className="sokoLogo" />
       <ul>
         <li>{sokoData.name}</li>
         <li>
