@@ -1,6 +1,15 @@
 import members from "../../../data/members.json";
 import { camelizeWords } from "../../../tools/camelizeWords.jsx";
 
+import gucci from "../../../../public/images/g0000.jpg";
+import hermyla from "../../../../public/images/h0000.jpg";
+import jakobKrakel from "../../../../public/images/j0000.jpg";
+import lomo from "../../../../public/images/l0000.jpg";
+import mokohuiu from "../../../../public/images/m0000.jpg";
+import resaresa from "../../../../public/images/r0000.jpg";
+
+const images = [gucci, hermyla, jakobKrakel, lomo, mokohuiu, resaresa];
+
 export const MemberCarousel = () => {
   return (
     <div className="memberCarousel">
@@ -11,11 +20,7 @@ export const MemberCarousel = () => {
             className={/*`${member.name.toLowerCase()}`*/ "memberCard"}
             style={{ width: 100 / (members.length + 1) + "%" }}
           >
-            <img
-              // src={`../public/images/${camelizeWords(member.name)}.jpg`}
-              src={"https://petapixel.com/assets/uploads/2019/06/DKP_6366.jpg"}
-              alt={member.name}
-            />
+            <img src={images[camelizeWords(member.name)]} alt={member.name} />
             <h2>{member.name}</h2>
 
             <ul>

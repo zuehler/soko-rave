@@ -3,8 +3,17 @@ import { useState } from "react";
 import memberData from "../../../data/members.json";
 import { camelizeWords } from "../../../tools/camelizeWords.jsx";
 
+import gucci from "../../../../public/images/g0000.jpg";
+import hermyla from "../../../../public/images/h0000.jpg";
+import jakobKrakel from "../../../../public/images/j0000.jpg";
+import lomo from "../../../../public/images/l0000.jpg";
+import mokohuiu from "../../../../public/images/m0000.jpg";
+import resaresa from "../../../../public/images/r0000.jpg";
+
+const images = [gucci, hermyla, jakobKrakel, lomo, mokohuiu, resaresa];
+
 export const ContactMembers = () => {
-  const [activeMember, setActiveMember] = useState("Gucci");
+  const [activeMember, setActiveMember] = useState(0);
   return (
     <>
       <div className="btnContainer">
@@ -13,24 +22,12 @@ export const ContactMembers = () => {
             <button
               key={index}
               className={camelizeWords(member.name)}
-              value={`${activeMember}`}
+              value={activeMember}
               style={{
                 width: 100 / (memberData.length + 1) + "%",
-                color:
-                  activeMember === `${member.name}` ? "#f67a29" : "whitesmoke",
-                textShadow:
-                  activeMember === `${member.name}`
-                    ? "0px 0px 5px #f67a29"
-                    : "0px 0px 5px whitesmoke",
-                border:
-                  activeMember === `${member.name}` ? "1px solid #f67a29" : "",
-                boxShadow:
-                  activeMember === `${member.name}`
-                    ? "0px 0px 1px 1px #f67a29"
-                    : "",
               }}
               onClick={(e) => {
-                setActiveMember(`${member.name}`);
+                setActiveMember(index);
               }}
             >
               {member.name}
@@ -40,69 +37,31 @@ export const ContactMembers = () => {
       </div>
       <span className={`contactMember ${activeMember}`}>
         <img
-          src={`../../../../public/images/${camelizeWords(activeMember)}.jpg`}
-          alt={activeMember}
-          className={activeMember}
+          src={images[activeMember]}
+          alt={memberData[activeMember].name}
+          className={`img${activeMember}`}
         />
         <ul>
-          <li>{activeMember}</li>
+          <li>{memberData[activeMember].name}</li>
           <li>
             email:{" "}
             <a
               target="_blank"
-              href={`mailto: ${memberData
-                .map((member) => {
-                  return activeMember === member.name ? member.email : "";
-                })
-                .join("")}`}
+              href={`mailto: ${memberData[activeMember].email}`}
             >
-              {memberData
-                .map((member) => {
-                  return activeMember === member.name ? member.email : "";
-                })
-                .join("")}
+              {memberData[activeMember].email}
             </a>
           </li>
           <li>
             instagram:{" "}
-            <a
-              target="_blank"
-              href={memberData
-                .map((member) => {
-                  return activeMember === member.name
-                    ? member.instagram.link
-                    : "";
-                })
-                .join("")}
-            >
-              {memberData
-                .map((member) => {
-                  return activeMember === member.name
-                    ? member.instagram.username
-                    : "";
-                })
-                .join("")}
+            <a target="_blank" href={memberData[activeMember].instagram.link}>
+              {memberData[activeMember].instagram.username}
             </a>
           </li>
           <li>
             soundcloud:{" "}
-            <a
-              target="_blank"
-              href={memberData
-                .map((member) => {
-                  return activeMember === member.name
-                    ? member.soundcloud.link
-                    : "";
-                })
-                .join("")}
-            >
-              {memberData
-                .map((member) => {
-                  return activeMember === member.name
-                    ? member.soundcloud.username
-                    : "";
-                })
-                .join("")}
+            <a target="_blank" href={memberData[activeMember].soundcloud.link}>
+              {memberData[activeMember].soundcloud.username}
             </a>
           </li>
         </ul>
