@@ -12,7 +12,7 @@ export const MemberCarousel = () => {
             style={{ width: 100 / (members.length + 1) + "%" }}
           >
             <img
-              src={`../public/${camelizeWords(member.name)}.jpg`}
+              src={`../public/images/${camelizeWords(member.name)}.jpg`}
               alt={member.name}
             />
             <h2>{member.name}</h2>
