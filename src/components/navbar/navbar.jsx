@@ -36,7 +36,7 @@ export const Navbar = () => {
                 // onClick={toggleBtnColor(navlink)
               }
             >
-              <NavLink to={navlink}>{navlink}</NavLink>
+              <NavLink to={`/${navlink}`}>{navlink}</NavLink>
             </span>
           );
         })}
@@ -60,12 +60,12 @@ export const Navbar = () => {
 
       <Routes>
         <Route path="/" element={<Navigate to="start" replace />} />
-        <Route path="start" element={<Start />} />
-        <Route path="members" element={<Members />} />
-        <Route path="media" element={<Media />} />
-        <Route path="shows" element={<Shows />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="merch" element={<Merch />} />
+        <Route path="/start" element={<Start />} />
+        <Route path="/members" element={<Members />} />
+        <Route path="/media" element={<Media />} />
+        <Route path="/shows" element={<Shows />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/merch" element={<Merch />} />
       </Routes>
     </Router>
   );

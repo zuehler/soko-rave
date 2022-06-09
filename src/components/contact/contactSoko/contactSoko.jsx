@@ -6,7 +6,7 @@ export const ContactSoko = () => {
     <span className="contactSoko">
       <img
         src="../../../../public/images/sokorave.jpg"
-        alt=""
+        alt="sokoLogo"
         className="sokoLogo"
       />
       <ul>
