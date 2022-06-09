@@ -35,10 +35,6 @@ export const MemberCarousel = () => {
               {Object.values(member.lastSeen).map((value) => {
                 return <li key={value}>{value}</li>;
               })}
-              {/* key-value-pairs listed <li>last seen:</li>
-              {Object.entries(member.lastSeen).map((pairs, index) => {
-                return <li key={index}>{pairs.join(": ")}</li>;
-              })} */}
             </ul>
 
             <ul>

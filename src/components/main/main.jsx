@@ -1,4 +1,6 @@
 import "../../styles/main/main.scss";
+import "../../styles/main/main-small.scss";
+
 import React from "react";
 import { useState } from "react";
 
