@@ -12,7 +12,8 @@ export const MemberCarousel = () => {
             style={{ width: 100 / (members.length + 1) + "%" }}
           >
             <img
-              src={`../public/images/${camelizeWords(member.name)}.jpg`}
+              // src={`../public/images/${camelizeWords(member.name)}.jpg`}
+              src={"https://petapixel.com/assets/uploads/2019/06/DKP_6366.jpg"}
               alt={member.name}
             />
             <h2>{member.name}</h2>
