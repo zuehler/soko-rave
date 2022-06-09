@@ -1,4 +1,6 @@
-import "../../styles/main/main.scss";
+import "../../styles/mainScreen/mainScreen.scss";
+import "../../styles/mainScreen/mainScreen-small.scss";
+
 import React from "react";
 import { useState } from "react";
 
@@ -9,7 +11,7 @@ import { Shows } from "../../pages/shows/shows.jsx";
 import { Contact } from "../../pages/contact/contact.jsx";
 import { Merch } from "../../pages/merch/merch.jsx";
 
-export const Main = () => {
+export const MainScreen = () => {
   const navLinks = ["start", "members", "media", "shows", "contact", "merch"];
   const pages = [
     <Start />,

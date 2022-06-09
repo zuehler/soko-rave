@@ -1,0 +1,36 @@
+@media screen and (max-width: 499px) {
+    .members {
+        h1 {
+            font-size: 1.6rem;
+            margin: 1.5rem 0 0.5rem 0;
+            }
+        .memberCarousel {
+            justify-content: flex-start;
+
+            .memberCard {
+                padding: 1rem;
+            
+                img {
+                margin: 0.1rem;
+                }
+
+                h2 {
+                margin: 0.6rem;
+                }
+
+                ul:last-child {
+
+                    li:last-child {
+                        text-align: center;
+                        white-space: normal;
+
+                    }
+                }
+            }
+            .memberCard:hover {
+                transition: ease-in-out 0.25s;
+                transform: none;
+              }
+        }
+    }
+}

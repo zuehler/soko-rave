@@ -1,4 +1,5 @@
 import "../../styles/subpage-members/members.scss";
+import "../../styles/subpage-members/members-small.scss"
 
 import { MemberCarousel } from "../../components/members/memberCarousel/memberCarousel";
 

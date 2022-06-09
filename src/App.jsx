@@ -2,13 +2,13 @@ import React from "react";
 import "./App.scss";
 
 import { Header } from "./components/header/header.jsx";
-import { Main } from "./components/main/main.jsx";
+import { MainScreen } from "./components/mainScreen/mainScreen.jsx";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <MainScreen />
     </div>
   );
 }
