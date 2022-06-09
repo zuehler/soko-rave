@@ -1,10 +1,5 @@
-<<<<<<< HEAD:src/components/mainScreen/mainScreen.jsx
 import "../../styles/mainScreen/mainScreen.scss";
 import "../../styles/mainScreen/mainScreen-small.scss";
-=======
-import "../../styles/main/main.scss";
-import "../../styles/main/main-small.scss";
->>>>>>> main:src/components/main/main.jsx
 
 import React from "react";
 import { useState } from "react";
