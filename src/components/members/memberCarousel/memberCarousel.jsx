@@ -17,10 +17,10 @@ export const MemberCarousel = () => {
         return (
           <div
             key={index}
-            className={/*`${member.name.toLowerCase()}`*/ "memberCard"}
+            className={`memberCard ${index}`}
             style={{ width: 100 / (members.length + 1) + "%" }}
           >
-            <img src={images[camelizeWords(member.name)]} alt={member.name} />
+            <img src={images[index]} alt={member.name} />
             <h2>{member.name}</h2>
 
             <ul>
