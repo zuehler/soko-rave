@@ -40,7 +40,7 @@ export const ContactMembers = () => {
       </div>
       <span className={`contactMember ${activeMember}`}>
         <img
-          src={`../public/${camelizeWords(activeMember)}.jpg`}
+          src={`../../../../public/images/${camelizeWords(activeMember)}.jpg`}
           alt={activeMember}
           className={activeMember}
         />
