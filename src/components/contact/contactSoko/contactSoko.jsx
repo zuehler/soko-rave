@@ -1,14 +1,11 @@
 import { React } from "react";
 import sokoData from "../../../data/soko.json";
+import imgUrl from "../../../../public/images/sokorave.jpg";
 
 export const ContactSoko = () => {
   return (
     <span className="contactSoko">
-      <img
-        src="../../../../public/images/sokorave.jpg"
-        alt="sokoLogo"
-        className="sokoLogo"
-      />
+      <img src={imgUrl} alt="sokoLogo" className="sokoLogo" />
       <ul>
         <li>{sokoData.name}</li>
         <li>
