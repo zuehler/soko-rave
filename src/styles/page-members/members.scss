@@ -1,37 +1,22 @@
 .members {
-  display: flex;
-  flex-flow: column nowrap;
   justify-content: space-evenly;
-  align-items: center;
   width: 90vw;
-
-  h1 {
-    align-self: center;
-    justify-self: flex-start;
-  }
 
   .memberCarousel {
     width: 90%;
-    padding: 1rem;
+    padding: 3rem;
 
-    display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
+    align-items: start;
     transition: ease-in-out 1s;
-    overflow-x: scroll;
 
     .memberCard {
-      display: flex;
-      flex-flow: column nowrap;
       justify-content: space-evenly;
-      align-items: center;
-
-      margin: 0;
       padding: 1rem 0rem;
       min-width: 150px;
 
       border: 1px solid var(--copBlue);
-      border-radius: 10px;
       box-shadow: 0px 0px 5px 2px var(--copBlue);
 
       transition: ease-in-out 0.25s;
@@ -44,7 +29,6 @@
         margin: 1rem;
 
         border: 1px solid var(--copBlue);
-        border-radius: 10px;
         box-shadow: 0px 0px 5px 2px var(--copBlue);
       }
 
@@ -52,9 +36,6 @@
         list-style: none;
         padding: 0;
         margin: 0;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
         transition: ease-in-out 0.25s;
 
         li {

@@ -36,35 +36,44 @@ export const ContactMembers = () => {
         })}
       </div>
       <span className={`contactMember ${activeMember}`}>
-        <img
-          src={images[activeMember]}
-          alt={memberData[activeMember].name}
-          className={`img${activeMember}`}
-        />
-        <ul>
-          <li>{memberData[activeMember].name}</li>
-          <li>
-            email:{" "}
-            <a
-              target="_blank"
-              href={`mailto: ${memberData[activeMember].email}`}
-            >
-              {memberData[activeMember].email}
-            </a>
-          </li>
-          <li>
-            instagram:{" "}
-            <a target="_blank" href={memberData[activeMember].instagram.link}>
-              {memberData[activeMember].instagram.username}
-            </a>
-          </li>
-          <li>
-            soundcloud:{" "}
-            <a target="_blank" href={memberData[activeMember].soundcloud.link}>
-              {memberData[activeMember].soundcloud.username}
-            </a>
-          </li>
-        </ul>
+        <div>
+          <img
+            src={images[activeMember]}
+            alt={memberData[activeMember].name}
+            className={`img${activeMember}`}
+          />
+        </div>
+        <div>
+          <p>{memberData[activeMember].name}</p>
+        </div>
+        <div>
+          <ul>
+            <li>
+              email:{" "}
+              <a
+                target="_blank"
+                href={`mailto: ${memberData[activeMember].email}`}
+              >
+                {memberData[activeMember].email}
+              </a>
+            </li>
+            <li>
+              instagram:{" "}
+              <a target="_blank" href={memberData[activeMember].instagram.link}>
+                {memberData[activeMember].instagram.username}
+              </a>
+            </li>
+            <li>
+              soundcloud:{" "}
+              <a
+                target="_blank"
+                href={memberData[activeMember].soundcloud.link}
+              >
+                {memberData[activeMember].soundcloud.username}
+              </a>
+            </li>
+          </ul>
+        </div>
       </span>
     </>
   );

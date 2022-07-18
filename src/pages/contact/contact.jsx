@@ -1,4 +1,4 @@
-import "../../styles/subpage-contact/contact.scss";
+import "../../styles/page-contact/contact.scss";
 import { ContactSoko } from "../../components/contact/contactSoko/contactSoko.jsx";
 import { ContactMembers } from "../../components/contact/contactMembers/contactMembers.jsx";
 

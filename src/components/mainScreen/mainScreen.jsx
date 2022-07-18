@@ -32,9 +32,14 @@ export const MainScreen = () => {
               href="#"
               key={navLink}
               onClick={(e) => setNavIndex(index)}
-              style={{ width: 100 / (navLinks.length + 1) + "%" }}
-              // +
-              // { color: index === pageIndex ? "orange" : "whitesmoke" }
+              style={{
+                width: 100 / (navLinks.length + 1) + "%",
+                color: index === pageIndex ? "orange" : "whitesmoke",
+                textShadow:
+                  index === pageIndex
+                    ? "0px 0px 3px orange"
+                    : "0px 0px 3px whitesmoke",
+              }}
             >
               {navLink}
             </a>

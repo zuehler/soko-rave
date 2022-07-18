@@ -1,38 +1,41 @@
 import sets from "../../data/sets.json";
-import "../../styles/subpage-media/media.scss";
+import "../../styles/page-media/media.scss";
+
 import ReactPlayer from "react-player";
 import { useState } from "react";
 
 export const Media = () => {
-  // const [keywords, setKeywords] = useState("2022");
-  // const filteredSets = sets.filter((set) => {
-  //   set.artists.includes("Gucci");
-  // });
-  // console.log(filteredSets);
-  // || set.genre.includes("2022");
-  // ||
-  // Object.values(set).join().includes("2022")
-
-  // console.log(sets[0].artists.includes("Gucci"));
-  // {
-  //   sets.artists.filter((artist) => {
-  //     artist.includes("Gucci");
-  //   });
-  // }
+  const [keywords, setKeywords] = useState([
+    "Gucci",
+    // , "2022"
+  ]);
+  const filteredSets = sets.filter((set) => {
+    return Object.values(set).join().includes(keywords);
+  });
 
   return (
     <div className="media">
       <h1>SOKO_RAVE | records</h1>
+      {/* <div>
+        {keywords.join(" || ")}
+        {console.log(keywords)}
+      </div> */}
       <form>
         <label>filter</label>
         <input
           type="text"
-          placeholder="e.g. objekt klein a, Acid, Lomo, Braunschweig ..."
+          placeholder="e.g. Gucci 2022"
+          onChange={(e) =>
+            setKeywords(
+              e.target.value
+              // .split(" ")
+            )
+          }
         />
       </form>
       <div className="sets">
         <ul>
-          {sets
+          {filteredSets
             .sort((a, b) => {
               return new Date(a.date).getTime() - new Date(b.date).getTime();
             })
