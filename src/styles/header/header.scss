@@ -1,11 +1,8 @@
 .header {
-  display: flex;
   flex-flow: row nowrap;
-  align-items: center;
   justify-content: center;
 
   h1 {
-    display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     width: 80vw;
@@ -14,10 +11,9 @@
     font-weight: bold;
 
     background-color: var(--copBlue);
+    box-shadow: 0px 0px 2px 2px var(--copBlue);
+
     padding: 1rem;
     margin: 2rem;
-    border-radius: 10px;
-    // border: 1px solid var(--copBlue);
-    box-shadow: 0px 0px 5px 5px var(--copBlue);
   }
 }

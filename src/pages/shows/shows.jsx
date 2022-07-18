@@ -1,4 +1,4 @@
-import "../../styles/subpage-shows/shows.scss";
+import "../../styles/page-shows/shows.scss";
 import { Upcoming } from "../../components/shows/upcoming";
 import { Recently } from "../../components/shows/recently";
 

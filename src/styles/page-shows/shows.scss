@@ -1,24 +1,12 @@
 .showsContainer {
-  display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
+  align-items: flex-start;
   width: 70vw;
-  //   align-items: flex-start;
-  //   height: 60vh;
-  //   border: 1px solid hotpink;
 
   .shows {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
     align-items: flex-start;
-    // padding: 1rem;
-    // margin: 1rem;
     width: 100%;
-
-    // border: 1px solid var(--copBlue);
-    // border-radius: 10px;
-    // box-shadow: 0px 0px 5px 2px var(--copBlue);
 
     h2 {
       align-self: center;
@@ -26,29 +14,28 @@
       font-size: 1.8rem;
       font-weight: bold;
       color: var(--stickerOrange);
-      text-shadow: 0px 0px 5px var(--stickerOrange);
+      text-shadow: 0px 0px 3px var(--stickerOrange);
     }
 
     ul {
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: flex-start;
       align-items: flex-start;
+      font-size: 1.2rem;
       width: 90%;
 
       ul {
-        list-style: none;
+        padding: 1rem 2rem;
         margin-bottom: 1rem;
+
+        list-style: none;
+
         border: 1px solid var(--copBlue);
-        border-radius: 10px;
         box-shadow: 0px 0px 5px 2px var(--copBlue);
 
         li:first-child {
           margin: 0.5rem 0;
-          font-size: 1.2rem;
-          // font-weight: bold;
+          font-size: 1.4rem;
           color: var(--stickerOrange);
-          text-shadow: 0px 0px 5px var(--stickerOrange);
+          text-shadow: 0px 0px 3px var(--stickerOrange);
         }
 
         li {
@@ -58,8 +45,6 @@
 
       a {
         text-decoration: none;
-        color: var(--fontColor);
-        text-shadow: 0px 0px 5px var(--fontColor);
         transition: ease-in-out 0.25s;
       }
       a:hover {

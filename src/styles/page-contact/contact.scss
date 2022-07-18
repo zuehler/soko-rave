@@ -1,0 +1,96 @@
+.contact {
+  height: 70vh;
+  width: 70vw;
+
+  span {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    width: 100%;
+    max-height: 20%;
+
+    padding: 1rem;
+
+    border: 1px solid var(--copBlue);
+    box-shadow: 0px 0px 5px 2px var(--copBlue);
+    div {
+      height: 100%;
+      width: 30%;
+      justify-content: center;
+
+      img {
+        height: 100%;
+        border: 1px solid var(--copBlue);
+        box-shadow: 0px 0px 5px 2px var(--copBlue);
+        align-self: flex-end;
+      }
+
+      p {
+        align-self: center;
+
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: var(--stickerOrange);
+        text-shadow: 0px 0px 3px var(--stickerOrange);
+      }
+
+      ul {
+        list-style: none;
+        align-self: start;
+        align-items: start;
+
+        li {
+          flex-flow: row wrap;
+          margin: 0.1rem 0.5rem;
+          font-size: 1.2rem;
+        }
+
+        a {
+          margin: 0 1rem;
+          text-decoration: none;
+          transition: ease-in-out 0.25s;
+        }
+        a:hover {
+          text-decoration: underline;
+          color: var(--stickerOrange);
+          text-shadow: 0px 0px 3px var(--stickerOrange);
+          transition: ease-in-out 0.25s;
+        }
+      }
+    }
+  }
+
+  .btnContainer {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 2rem 1rem 0 1rem;
+    width: 100%;
+
+    button {
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-self: flex-end;
+
+      min-width: 100px;
+      margin: 0.5rem 0.5rem;
+      padding: 0.5rem 0.3rem;
+
+      background-color: var(--copBlue);
+      font-weight: bold;
+      font-size: 1rem;
+
+      transition: ease-in-out 0.25s;
+    }
+
+    button:active,
+    button:focus {
+      color: var(--stickerOrange);
+      text-shadow: 0px 0px 3px var(--stickerOrange);
+
+      border: 1px solid var(--stickerOrange);
+      box-shadow: 0px px 1px 1px var(--stickerOrange);
+
+      transition: ease-in-out 0.25s;
+    }
+  }
+}
