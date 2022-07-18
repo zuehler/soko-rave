@@ -5,7 +5,10 @@ import ReactPlayer from "react-player";
 import { useState } from "react";
 
 export const Media = () => {
-  const [keywords, setKeywords] = useState(["Gucci", "2022"]);
+  const [keywords, setKeywords] = useState([
+    "Gucci",
+    // , "2022"
+  ]);
   const filteredSets = sets.filter((set) => {
     return Object.values(set).join().includes(keywords);
   });
@@ -13,16 +16,21 @@ export const Media = () => {
   return (
     <div className="media">
       <h1>SOKO_RAVE | records</h1>
-      <div>
+      {/* <div>
         {keywords.join(" || ")}
         {console.log(keywords)}
-      </div>
+      </div> */}
       <form>
         <label>filter</label>
         <input
           type="text"
           placeholder="e.g. Gucci 2022"
-          onChange={(e) => setKeywords(e.target.value.split(" "))}
+          onChange={(e) =>
+            setKeywords(
+              e.target.value
+              // .split(" ")
+            )
+          }
         />
       </form>
       <div className="sets">
