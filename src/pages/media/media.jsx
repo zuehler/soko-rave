@@ -6,7 +6,7 @@ import { useState } from "react";
 
 export const Media = () => {
   const [keywords, setKeywords] = useState([
-    "Gucci",
+    "2022",
     // , "2022"
   ]);
   const filteredSets = sets.filter((set) => {
@@ -24,7 +24,7 @@ export const Media = () => {
         <label>filter</label>
         <input
           type="text"
-          placeholder="e.g. Gucci 2022"
+          placeholder="2022"
           onChange={(e) =>
             setKeywords(
               e.target.value

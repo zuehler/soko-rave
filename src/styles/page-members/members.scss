@@ -56,6 +56,11 @@
         }
       }
 
+      ul:last-child {
+        white-space: pre-wrap;
+        text-align: center;
+      }
+
       a {
         color: var(--fontColor);
         transition: ease-in-out 0.25s;
